@@ -24,7 +24,13 @@ if __name__ == '__main__':
   for v in students.values():
      print(v)
   
+  print("------affichages des cles/valeurs---------")
+  for i,v in students.items():
+     print(f"{i} : {v}")
+     
+  print("------FINNN---------")
   
+ 
   
 
  
