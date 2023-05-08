@@ -7,8 +7,7 @@
         
 if __name__ == '__main__':
     
-    def myfunction():
-        print('Bonjour')
-        
-myfunction()
+   fruits =['Mangue','Banane','Avocat']
+   for f in fruits :
+     print(f)
         
