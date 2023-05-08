@@ -35,7 +35,17 @@ if __name__ == '__main__':
       def __init__(self,name,age):
           self.name = name
           self.age = age
-      def __str__(self) :
+          
+      def __str__(self) -> str:
+          return f"{self.name} ({self.age})"
+      
+      def showPerson(self) :
+          print(self.name ,self.age)
+          
+    ##### la classe derivee
+  class student(Personne) :
+      s=Personne("Matty", 23)
+      s.showPerson()
           
   
 
