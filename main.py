@@ -20,6 +20,12 @@ if __name__ == '__main__':
  
   for s in students.keys():
      print(s)
+     print("------affichages des valeurs---------")
+  for v in students.values():
+     print(v)
+  
+  
+  
 
  
   
