@@ -7,12 +7,19 @@
         
 if __name__ == '__main__':
     
-   fruits =['Mangue','Banane','Avocat']
-   for f in fruits :
-     print(f)
-   print('------nouveau fruit') 
-     
-   fruits.insert(1,'pasteque')  
-   for f in fruits :
-     print(f)
-        
+ 
+  students={
+     "FirstName" : "Bizindavyi" ,
+     "LastName" : "Joe Matty Carel" ,
+     "Tel" : "+257 61 989 328" ,
+     "email" : "joemattycarelb@gmail.com" ,
+     "Address" : "Mutanga Nord"
+  }    
+ 
+  print("------affichages des cles---------")
+ 
+  for s in students.keys():
+     print(s)
+
+ 
+  
